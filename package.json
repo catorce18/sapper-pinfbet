@@ -1,0 +1,40 @@
+{
+  "name": "TODO",
+  "description": "TODO",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "sapper dev",
+    "build": "sapper build --legacy",
+    "export": "sapper export --legacy",
+    "start": "node __sapper__/build",
+    "build-css": "npx node-sass --omit-source-map-url static/style.scss static/global.css"
+  },
+  "dependencies": {
+    "bulma": "file:bulma",
+    "compression": "^1.7.1",
+    "polka": "next",
+    "sirv": "^1.0.0",
+    "svelma": "^0.4.0",
+    "svelte-bulma-components": "^0.1.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-syntax-dynamic-import": "^7.0.0",
+    "@babel/plugin-transform-runtime": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/runtime": "^7.0.0",
+    "@rollup/plugin-babel": "^5.0.0",
+    "@rollup/plugin-commonjs": "^14.0.0",
+    "@rollup/plugin-node-resolve": "^8.0.0",
+    "@rollup/plugin-replace": "^2.2.0",
+    "@rollup/plugin-url": "^5.0.0",
+    "node-sass": "^5.0.0",
+    "rollup": "^2.3.4",
+    "rollup-plugin-postcss": "^3.1.8",
+    "rollup-plugin-svelte": "^6.0.0",
+    "rollup-plugin-terser": "^7.0.0",
+    "sapper": "^0.28.0",
+    "svelte": "^3.17.3",
+    "svelte-preprocess": "^4.6.1"
+  }
+}
