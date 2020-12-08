@@ -23,12 +23,12 @@
       </a>
 
       <a class="navbar-item" aria-current="{segment === 'about' ? 'page' : undefined}" href='/about'>
-        Actividad
+        Apuestas
       </a>
 
       <div class="navbar-item has-dropdown is-hoverable">
-        <a class="navbar-link" aria-current="{segment === 'perfil' ? 'page' : undefined}">
-          Perfil
+        <a class="navbar-link" aria-current="{segment === 'perfil' ? 'page' : undefined}" >
+          Profile
         </a>
 
         <div class="navbar-dropdown">
@@ -37,7 +37,11 @@
           </a>
 					<hr class="navbar-divider">
           <a class="navbar-item">
-            Cerrar sesion
+            Log out
+          </a>
+          <hr class="navbar-divider">
+          <a class="navbar-item">
+            armario
           </a>
         </div>
       </div>
