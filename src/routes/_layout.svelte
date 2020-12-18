@@ -1,6 +1,8 @@
 <script>
 	import Nav from '../components/Nav.svelte';
 	import Apuesta from '../components/Apuesta.svelte';
+	import Perfil from '../components/Perfil.svelte';
+
 	export let segment;
 </script>
 
@@ -10,6 +12,10 @@
 
 {#if (segment == 'about')}
 <Apuesta {segment}/>
+{/if}
+
+{#if (segment == 'perfil')}
+<Perfil {segment}/>
 {/if}
 
 <main>
